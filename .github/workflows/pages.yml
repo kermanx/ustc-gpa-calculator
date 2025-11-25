@@ -54,7 +54,7 @@ jobs:
       - name: Install dependencies
         run: pnpm i
       - name: Build
-        run: pnpm build --base /gpa-calculator/
+        run: pnpm build --base /ustc-gpa-calculator/
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
